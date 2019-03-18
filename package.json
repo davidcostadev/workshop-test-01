@@ -1,0 +1,30 @@
+{
+  "name": "workshop-test-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcostadev/workshop-test-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidcostadev/workshop-test-01/issues"
+  },
+  "homepage": "https://github.com/davidcostadev/workshop-test-01#readme",
+  "dependencies": {
+    "codecov": "^3.2.0",
+    "jest": "^24.5.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
