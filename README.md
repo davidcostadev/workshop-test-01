@@ -108,7 +108,7 @@ Expect
 ```
 
 
-**Author Challage** 
+**Author Challenge** 
 
 saikiran9194 -> https://www.hackerrank.com/profile/saikiran9194
 
