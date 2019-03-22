@@ -1,4 +1,4 @@
-const leftRotation = require('../src/left-roration-[yourname]');
+const leftRotation = require('../src/left-rotation-[yourname]');
 
 // test here
 it('...', () => {
