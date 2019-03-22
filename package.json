@@ -1,7 +1,7 @@
 {
   "name": "workshop-test-01",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercice of 01 workshop",
   "main": "index.js",
   "directories": {
     "test": "tests"
@@ -13,18 +13,23 @@
     "type": "git",
     "url": "git+https://github.com/davidcostadev/workshop-test-01.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "David Costa <davicostadev@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidcostadev/workshop-test-01/issues"
   },
   "homepage": "https://github.com/davidcostadev/workshop-test-01#readme",
-  "dependencies": {
-    "codecov": "^3.2.0",
-    "jest": "^24.5.0"
-  },
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
+  },
+  "devDependencies": {
+    "codecov": "^3.2.0",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.5.0"
   }
 }
