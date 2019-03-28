@@ -1,6 +1,10 @@
 // function
 function leftRotation(quant, rotation, arr) {
-  return [5, 1, 2, 3, 4]
+  for(let i = 1; i <= rotation; i++){
+    let firstElement = arr.shift();
+    arr.push(firstElement);
+  }
+  return arr;
 }
 
 module.exports = leftRotation;
